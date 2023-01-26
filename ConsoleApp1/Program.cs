@@ -23,12 +23,57 @@
 
         if(cevap=="b"||cevap=="B") 
         {
-            Console.WriteLine("Cevabınız Doğru");
+            soru=soru+1;
         }
         else 
         {
-            Console.WriteLine("Cevabınız Yanlış");
+            Console.WriteLine("Cevabınız Yanlış.Puanınız:0");
         }
+    }
+    if (soru == 2)
+    {
+        Console.WriteLine();
+        Console.WriteLine("Uzaktan kumanda ilk kez Amerika'da kaç yılında kullanılmıştır?");
+        Console.WriteLine();
+        Console.WriteLine("A) 1950");
+        Console.WriteLine("B) 1948");
+        Console.WriteLine("C) 1956");
+        Console.WriteLine("D) 1958");
+        Console.WriteLine();
+        Console.WriteLine("Cevabınız: ");
+        cevap=Console.ReadLine();
+
+        if (cevap=="b" ||cevap=="B") 
+        {
+            soru=soru+1;
+        }
+        else
+        {
+            Console.WriteLine("Cevabınız Yanlış.Puanınız:20");
+        }
+    }
+    if(soru == 3)
+    {
+        Console.WriteLine();
+        Console.WriteLine("Hamileliğin kaçıncı ayında bebeğin kalbi kan pompalamaya başlar?");
+        Console.WriteLine();
+        Console.WriteLine("A) 5");
+        Console.WriteLine("B) 6");
+        Console.WriteLine("C) 7");
+        Console.WriteLine("D) 8");
+        Console.WriteLine("Cevabınız:");
+        cevap=Console.ReadLine();
+        if(cevap=="b"||cevap=="B")
+        {
+            Console.WriteLine();
+            Console.WriteLine("Tebrikler Bütün Soruları Doğru Cevapladınız.");
+
+        }
+        else 
+        {
+            Console.WriteLine("Cevabınız Yanlış.Puanınız:40");
+        }
+
     }
 
 }
